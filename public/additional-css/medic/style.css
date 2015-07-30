@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, .copyright p a, .footer-links li a { color:#616161; }
+
+#logo { padding:15px 0 9px; }
+
+.full-bg { background:url(http://placehold.it/638x600&text=Image) no-repeat left; background-size:36%; z-index:2; }
+.full-bg .column, .full-bg .container { position:inherit; }
+
+.parallax-content-bg { background-image:url(http://placehold.it/1920x1280&text=Parallax); }
+.parallax-content-bg:after { background-color:rgba(8, 187, 183, 0.85) !important; }
+.entry-post .dt-sc-button.small { bottom:-15px; }
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], .selection-box, select option { background-color:#fff; color:#616161; }
+
+.dt-sc-testimonial span::before, .dt-sc-testimonial span::after { background-color:#fff; }
+.dt-sc-testimonial span { color:#fff !important; }
+.dt-sc-testimonial .author img { box-shadow: 0 0 0 4px #fff !important; }
+.dt-sc-testimonial-wrapper > h3 { border-bottom:4px double #fff; padding-bottom:10px; display:inline-block; }
+.slider-controls .pager a.selected { background-color:#fff !important; }
+.slider-controls .pager a { background-color:#eaeaea; }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:19px 0 5px !important; }
+}
+
+@media only screen and (max-width:767px) {
+.container { width:420px; }
+.full-bg { background-size:100%; }
+.full-bg:after { background-color:rgba(255, 255, 255, 0.85 ); width:100%; height:100%; content:""; top:0; left:0; position:absolute; z-index:-1; }
+
+}

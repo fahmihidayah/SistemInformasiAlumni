@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo { padding:12px 0 6px 0; }
+
+body, .footer-links li a, .copyright p a { color:#616161; }
+
+.parallax-content-bg1 { background:url(http://placehold.it/1920x606&text=Image) no-repeat center center; padding:120px 0; }
+blockquote { padding:10px 4%; }
+
+.full-bg-img { float:left; width:100%; background:url(../../images/education/grid-pattern.png) repeat; padding:30px 0 0 0; }
+
+.recent-gallery-container .bx-controls { bottom: 0; float: left; height: 100%; margin: auto; position: absolute; text-align: center; top: 0; width: 100%; z-index: 999; }
+.recent-gallery-container .bx-controls a { width:40px; height:50px; bottom:0; top:0; margin:auto; }
+.recent-gallery-container .bx-controls a.bx-prev { background:url(../../images/prev-arrow1.png) no-repeat; }
+.recent-gallery-container .bx-controls a.bx-next { background:url(../../images/next-arrow1.png) no-repeat; }
+
+.row-wrapper { background-color:#dee2e5; }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:16px 0 12px !important; }
+}

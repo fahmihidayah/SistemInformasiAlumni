@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo { padding:21px 0 15px; }
+
+body, .copyright, .top-bar { background-color:#f8f5f0; color:#616161; }
+
+.copyright p a, .footer-links li a, .top-right .dt-sc-social-icons .fa { color:#616161; }
+
+.header, #main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container { background-color:#421405 !important; }
+
+#main-menu > ul > li > a, #main-menu ul li.menu-item-simple-parent ul li a, .megamenu-child-container ul.sub-menu > li > ul li a, .megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu, .menu-item-widget-area-container .widget ul li a { color:#fff; }
+
+#main-menu > ul > li.current_page_item > a, #main-menu ul li.menu-item-simple-parent ul li, .megamenu-child-container ul.sub-menu > li > ul li a, .menu-item-widget-area-container .widget ul li { border-color:rgba( 255, 255, 255, 0.4 ); }
+.megamenu-child-container > ul.sub-menu > li > p { color:rgba( 255, 255, 255, 0.5 ); }
+
+#main-menu > ul > li:first-child > a, #main-menu > ul > li > a, #main-menu ul li.menu-item-simple-parent ul li a, #main-menu ul.menu .megamenu-child-container > ul.sub-menu > li { border-color:rgba( 255, 255, 255, 0.4 ) !important; }
+
+.intro-text.type4 { background-color:#421405; }
+
+.dt-sc-dark-border, .dt-sc-ico-content.type8 .icon { border-color:#eec106 !important; }
+
+.parallax-bg { background-image:url(http://placehold.it/1920x800&text=Parallax); padding:55px 0 0; }
+.presentation-bg { background-image:url(http://placehold.it/1920x800&text=Parallax); }
+
+.dt-sc-hours-content { border-color:#e2b704; }
+.footer-widgets-wrapper { background-image:url(../../images/restaurant/restaurant-footer-bg.jpg); }
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+.container { width:710px; }
+#logo { padding:23px 0 15px !important; }
+}

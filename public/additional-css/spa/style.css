@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, .top-bar, .copyright.type2 { background:#fffae4; color:#808080; }
+#logo { padding:8px 0 0; }
+.dt-sc-hours-content { border:1px dashed #925693; background:url(http://placehold.it/800x400&text=Image) no-repeat center; padding:70px 10px; }
+.dt-sc-hours-content h3, .dt-sc-hours-content p { color:#000; }
+.top-right .dt-sc-social-icons .fa, .copyright p a, .footer-links li a { color:#808080; }
+
+.header, #main-menu ul li.menu-item-simple-parent ul, .megamenu-child-container { background-color:#7d5b05 !important; }
+#main-menu > ul > li.current_page_item > a, #main-menu > ul > li > a:hover, #main-menu ul li.menu-item-simple-parent ul li a:hover, #main-menu ul li.menu-item-simple-parent ul li.current_page_item > a, .megamenu-child-container ul > li > a:hover, .megamenu-child-container ul > li > ul li a:hover, #main-menu > ul > li:hover > a { color:rgba( 255, 255, 255, 1) !important; }
+#main-menu > ul > li > a, #main-menu ul li.menu-item-simple-parent ul li a, .megamenu-child-container > ul.sub-menu > li > a, .megamenu-child-container > ul.sub-menu > li > .nolink-menu, .menu-item-widget-area-container .widget ul li a, .megamenu-child-container ul.sub-menu > li > ul li a { color:rgba( 255, 255, 255, 0.7); }
+.megamenu-child-container > ul.sub-menu > li > p { color:rgba( 255, 255, 255, 0.5); }
+
+#main-menu > ul > li > a, #main-menu ul li.menu-item-simple-parent ul li a, #main-menu ul.menu .megamenu-child-container > ul.sub-menu > li { border-color:rgba( 255, 255, 255, 0.5) !important; }
+
+#main-menu > ul > li.current_page_item > a, #main-menu ul li.menu-item-simple-parent ul li, .megamenu-child-container ul.sub-menu > li > ul li a, .menu-item-widget-area-container .widget ul li { border-color:rgba( 255, 255, 255, 0.5); }
+
+.intro-text.type6 { background-image:url(http://placehold.it/1920x617&text=Image); background-position:center; padding:50px 0 0px; min-height:610px; }
+.intro-text.type6 .dt-sc-button { opacity:0.7; }
+.fullwidth-testimonial { background-image:url(http://placehold.it/1920x800&text=Parallax); }
+.dt-sc-testimonial-wrapper .dt-sc-testimonial h5 { color:#686868; font-weight:600; }
+.dt-sc-pr-tb-col.type3.selected .dt-sc-tb-header { background:url(../../images/spa/highlight-bg.png) no-repeat top right; }
+
+.entry-post:before, .entry-post:after { border-color:#686868; }
+
+#footer .footer-widgets-wrapper.type2 { background-color:#7d5b05; }
+#footer .widget-title { color:#ffce00; }
+#footer .widget-title .fa { background-color:#ebdcb3; color:#7d5b05; }
+#footer .widget.widget_links ul li::before, #footer .widget.widget_links ul li a, .footer-widgets-wrapper .widget_contact p { color:#fff; }
+.widget_contact .small-line { background-color:#c99a02; }
+
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), 
+	only screen and (-o-min-device-pixel-ratio: 3/2), 
+	only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (min-devicepixel-ratio: 1.5), 
+	only screen and (min-resolution: 1.5dppx) {
+
+.dt-sc-pr-tb-col.type3.selected .dt-sc-tb-header { background-image:url(../../images/spa/highlight-bg@2x.png); background-size:87px 64px; }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+	
+.container { width:710px; }
+#logo { padding:14px 0 5px !important; }
+}
