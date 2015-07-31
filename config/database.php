@@ -55,7 +55,7 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => env('DB_HOST', '127.0.0.1'),
-			'database'  => env('DB_DATABASE', 'chat_me'),
+			'database'  => env('DB_DATABASE', 'sis_in_alumni'),
 			'username'  => env('DB_USERNAME', 'root'),
 			'password'  => env('DB_PASSWORD', ''),
 			'charset'   => 'utf8',
