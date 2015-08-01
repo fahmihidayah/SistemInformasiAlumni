@@ -10,4 +10,8 @@ class TestController extends Controller {
 	public function test_login(Request $request){
 		return view('login');
 	}
+
+	public function test_register(Request $request){
+		return view('register');
+	}
 }

@@ -20,4 +20,21 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+// test url
 Route::get('/test_login', 'TestController@test_login');
+
+Route::get('/test_register', 'TestController@test_register');
+
+// guest url
+
+Route::get('/login', 'GuestController@get_login');
+
+Route::get('/register', 'GuestController@get_register');
+Route::post('/post_register', 'GuestController@post_register');
+
+
+// api url
+
+Route::get('/test_api', 'ApiController@test_api');
+
+Route::post('/post_test_api', 'ApiController@test_post_api');
