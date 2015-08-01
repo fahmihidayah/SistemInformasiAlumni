@@ -14,7 +14,7 @@ class GuestController extends Controller {
 	}
 
 	public function post_login(Request $request){
-
+		
 	}
 
 	public function get_register(Request $request){
@@ -22,8 +22,10 @@ class GuestController extends Controller {
 	}
 	// kurang validator
 	public function post_register(Request $request){
-		// $mahasiswa = Mahasiswa::create_mahasiswa($request);
-		// $user = User::create_user($request);
+		$mahasiswa = Mahasiswa::create_mahasiswa($request);
+		$mahasiswa->save();
+		$user = User::create_user($request);
+		$user->save();
 		return $request->all();
 	}	
 

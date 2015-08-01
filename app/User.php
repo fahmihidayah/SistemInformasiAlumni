@@ -34,6 +34,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
 	public static function create_user(Request $request){
 		$user = new User();
+		$user->name = $request->get('first_name') . " " . $request->get('last_name'); 
 		$user->email = $request->get('email');
 		$user->password = bcrypt($request->get('password'));
 		return $user;

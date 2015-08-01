@@ -18,7 +18,7 @@ class Mahasiswa extends Model {
 	public static function create_mahasiswa(Request $request){
 		$mahasiswa = new Mahasiswa();
 		$mahasiswa->first_name = $request->get('first_name');
-		$mahasiswa->list_name = $request->get('last_name');
+		$mahasiswa->last_name = $request->get('last_name');
 		$mahasiswa->batch = $request->get('batch');
 		return $mahasiswa;
 	}

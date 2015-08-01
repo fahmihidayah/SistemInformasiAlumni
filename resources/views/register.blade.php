@@ -113,11 +113,11 @@
                             <!-- <form method="post" id="reg_form" name="frmRegister"> -->
                                 {!!Form::open(array('url' => 'post_register'))!!}
                                 <p class="dt-sc-one-half column first">
-                                    <input placeholder="First Name *" id="f_name" name="f_user" type="text">
+                                    <input placeholder="First Name *" id="f_name" name="first_name" type="text">
                                 </p>
                                 
                                 <p class="dt-sc-one-half column">
-                                    <input placeholder="Last Name" id="l_name" name="l_user" type="text">
+                                    <input placeholder="Last Name" id="l_name" name="last_name" type="text">
                                 </p>
                                 
                                 <p class="dt-sc-one-half column first">
@@ -125,15 +125,15 @@
                                 </p>
                                 
                                 <p class="dt-sc-one-half column">
-                                    <input placeholder="Batch" id="batch" name="web" autocomplete="off" type="text">
+                                    <input placeholder="Batch" id="batch" name="batch" autocomplete="off" type="text">
                                 </p>
                                 
                                 <p class="dt-sc-one-half column first">
-                                    <input placeholder="Password *" id="user_pwd" name="pwd" type="password">
+                                    <input placeholder="Password *" id="user_pwd" name="password" type="password">
                                 </p>
                                 
                                 <p class="dt-sc-one-half column">
-                                    <input placeholder="Confirm Password *" name="c_pwd" type="password">
+                                    <input placeholder="Confirm Password *" name="confirm_password" type="password">
                                 </p>                                          
                                  <label><input value="forever" id="rememberme" name="rememberme" type="checkbox"> Saya menyetujui Syarat dan ketentuan</label><br/>
                                 <input class="button" value="Create an Account" type="submit">

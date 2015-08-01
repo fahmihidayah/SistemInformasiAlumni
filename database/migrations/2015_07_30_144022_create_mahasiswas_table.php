@@ -16,18 +16,18 @@ class CreateMahasiswasTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('first_name');
-			$table->string('last_name');
-			$table->string('short_profile');
-			$table->string('address');
-			$table->string('job');
+			$table->string('last_name')->default("");
+			$table->string('short_profile')->default("Hello world");
+			$table->string('address')->nullable();
+			$table->string('job')->nullable();
 			$table->string('batch');
-			$table->string('facebook_account');
-			$table->string('twitter_account');
-			$table->string('behance_account');
-			$table->string('dribble_account');
-			$table->string('linkedin_account');
+			$table->string('facebook_account')->nullable();
+			$table->string('twitter_account')->nullable();
+			$table->string('behance_account')->nullable();
+			$table->string('dribble_account')->nullable();
+			$table->string('linkedin_account')->nullable();
 			$table->integer('users_id');
-			$table->integer('images_id');
+			$table->integer('images_id')->nullable();
 			$table->timestamps();
 		});
 	}
