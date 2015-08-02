@@ -1,4 +1,4 @@
-<?php?>
+<!Doctype html>
 <!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
@@ -71,9 +71,9 @@
 	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/home_main')}}">HOME</a></div></li>
 	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/profile')}}">PROFILE</a></div></li>
                                 <li class="menu-item-simple-parent current_page_item"><div><a href="{{URL::to('/projects_depan')}}">PROJECTS</a></div>       </li>
-	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/events')}}">EVENTS</a></div>                      </li>
-	                            <li class="menu-item-simple-parent " ><div><a href="{{URL::to('/about')}}" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
-                                
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('events')}}">EVENTS</a></div>                      </li>
+	                            <li class="menu-item-simple-parent " ><div><a href="{{URL::to('about')}}}" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
+                            
 	                        </ul>
 	                    </nav>
 	                    <!-- **Nav - End**-->
@@ -83,7 +83,7 @@
 					<div class="top-right cari">
                     <ul class="register" style="padding-top: 70px;">
                         
-                        <li><a href="{{URL::to('register')}}" title="Register Now"><span class="fa fa-user"></span>  </a><a href="{{URL::to('login')}}" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
+                        <li><a href="#" title="Register Now"><span class="fa fa-user"></span>  </a><a href="#" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
                         <li><p> <input placeholder="search" id="kw" name="kws" autocomplete="off" type="text" > </p></li>
                     </ul>
                 </div>
