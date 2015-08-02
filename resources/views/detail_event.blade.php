@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>PROJECTS </title>
+	<title>DETAIL EVENTS </title>
 	
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -48,9 +48,9 @@
 <div class="wrapper"> 
 	<div class="inner-wrapper">
     	
-        
-                
-         <div id="header-wrapper">
+        <!-- **Top Bar** -->
+   
+        <div id="header-wrapper">
 	    <!-- **Header** -->
 	        <header class="header" >
 	        	<div class="container" >
@@ -68,11 +68,13 @@
                                 <span class="dt-menu-toggle-icon"></span>
                             </div>
                             <ul class="menu">
-	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/home_main')}}">HOME</a></div></li>
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::tp('/home_main')}}">HOME</a></div></li>
 	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/profile')}}">PROFILE</a></div></li>
-                                <li class="menu-item-simple-parent current_page_item"><div><a href="{{URL::to('/projects_depan')}}">PROJECTS</a></div>       </li>
-	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/events')}}">EVENTS</a></div>                      </li>
+                                <li class="menu-item-simple-parent "><div><a href="{{URL::to('/projects_depan')}}">PROJECTS</a></div>       </li>
+	                            <li class="menu-item-simple-parent current_page_item "><div><a href="{{URL::to('events')}}">EVENTS</a></div>                      </li>
 	                            <li class="menu-item-simple-parent " ><div><a href="{{URL::to('/about')}}" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
+                            
+
 	                        </ul>
 	                    </nav>
 	                    <!-- **Nav - End**-->
@@ -82,7 +84,7 @@
 					<div class="top-right cari">
                     <ul class="register" style="padding-top: 70px;">
                         
-                        <li><a href="{{URL::to('/register')}}" title="Register Now"><span class="fa fa-user"></span>  </a><a href="{{URL::to('/login')}}" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
+                        <li><a href="{{URL::to('/register')}}" title="Register Now"><span class="fa fa-user"></span>  </a><a href="{{URL::to('login')}}" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
                         <li><p> <input placeholder="search" id="kw" name="kws" autocomplete="off" type="text" > </p></li>
                     </ul>
                 </div>
@@ -183,24 +185,10 @@
                                     <li>
                                         <p><i class="fa fa-calendar-o"></i><span>Address:</span></br> Menara Bank Danamon - Mega Kuningan - Jakarta - Indonesia</p>
                                     </li>
-                                    <li>
-                                        <p><i class="fa fa-globe"></i><span>Construction Type:</span></br> Architecture & Interior Design Project</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-wrench"></i><span> Total floor area:</span></br> 300m2</p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-tags"></i><span> Architects & Interior Designer:</span></br> Einstein & Associates </p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-globe"></i><span> Principal Architect :</span> </br><a href="#">Leo Einstein Franciscusm</a></p>
-                                    </li>
-                                    <li>
-                                        <p><i class="fa fa-globe"></i><span> Completed :</span></br> <a href="#">January 2015</a></p>
-                                    </li>
+                                    
                                 </ul>
                                 <div class="dt-sc-hr-invisible-very-small"></div>
-                                <h6>Share this Project</h6>
+                                <h6>Share this Events</h6>
                                 <!-- **dt-sc-social-icons - Starts** -->
                                 <ul class="dt-sc-social-icons">
                                     <li> <a href="#" title="twitter"> <span class="fa fa-twitter"></span>  </a> </li>
@@ -213,7 +201,7 @@
 							
                         </div> <!-- **entry-detail - Ends** -->
                     </article> <!-- **Blog-post - Ends** --> 
-                	
+                
                 </section> <!-- **Primary - Ends** --> 
                 <div class="dt-sc-hr-invisible"></div> 
             </div> <!-- **container - Ends** --> 
@@ -301,7 +289,7 @@
 	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
     
 	<script src="js/custom.js" type="text/javascript"></script>   
-        
+           
 </body>
 </html>
 

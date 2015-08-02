@@ -82,8 +82,7 @@
 	            </div>
 					<div class="top-right cari">
                     <ul class="register" style="padding-top: 70px;">
-                        
-                        <li><a href="#" title="Register Now"><span class="fa fa-user"></span>  </a><a href="#" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
+                        <li><a href="{{URL::to('/register')}}" title="Register Now"><span class="fa fa-user"></span>  </a><a href="{{URL::to('/login')}}" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
                         <li><p> <input placeholder="search" id="kw" name="kws" autocomplete="off" type="text" > </p></li>
                     </ul>
                 </div>
