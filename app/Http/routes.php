@@ -39,6 +39,7 @@ Route::get('/events', 'GuestController@get_events');
 Route::get('/detail_event', 'GuestController@detail_event');
 Route::get('/detail_project', 'GuestController@get_detail_project');
 Route::get('/projects_depan', 'GuestController@get_projects_depan');
+Route::get('/profile', 'GuestController@get_profile');
 
 // api url
 

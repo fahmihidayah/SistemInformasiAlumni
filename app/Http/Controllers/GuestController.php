@@ -61,5 +61,9 @@ class GuestController extends Controller {
 	public function get_projects_depan(Request $request){
 		return view('projects_depan');
 	}
+
+	public function get_profile(Request $request){
+		return view('profile');
+	}
 	
 }
