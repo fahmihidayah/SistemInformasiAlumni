@@ -46,8 +46,8 @@ class GuestController extends Controller {
 		return view('events');
 	}
 
-	public function detail_event(Request $request){
-		return view('detail_event');
+	public function get_detail_event(Request $request){
+		return view('detail_events');
 	}
 
 	public function get_detail_project(Request $request){

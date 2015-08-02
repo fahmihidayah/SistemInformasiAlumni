@@ -1,4 +1,4 @@
-<!Doctype html>
+<?php?>
 <!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
@@ -68,12 +68,12 @@
                                 <span class="dt-menu-toggle-icon"></span>
                             </div>
                             <ul class="menu">
-	                            <li class="menu-item-simple-parent "><div><a href="#">HOME</a></div></li>
-	                            <li class="menu-item-simple-parent "><div><a href="#">PROFILE</a></div></li>
-                                <li class="menu-item-simple-parent current_page_item"><div><a href="#">PROJECTS</a></div>       </li>
-	                            <li class="menu-item-simple-parent "><div><a href="#">EVENTS</a></div>                      </li>
-	                            <li class="menu-item-simple-parent " ><div><a href="#" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
-                            
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/home_main')}}">HOME</a></div></li>
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/profile')}}">PROFILE</a></div></li>
+                                <li class="menu-item-simple-parent current_page_item"><div><a href="{{URL::to('/projects_depan')}}">PROJECTS</a></div>       </li>
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/events')}}">EVENTS</a></div>                      </li>
+	                            <li class="menu-item-simple-parent " ><div><a href="{{URL::to('/about')}}" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
+                                
 	                        </ul>
 	                    </nav>
 	                    <!-- **Nav - End**-->

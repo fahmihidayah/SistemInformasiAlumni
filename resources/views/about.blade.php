@@ -1,4 +1,4 @@
-<!Doctype html>
+<?php?>
 <!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
@@ -70,7 +70,7 @@
                             <ul class="menu">
 	                            <li class="menu-item-simple-parent "><a href="{{URL::to('/home_main')}}">HOME</a>
                                 </li>
-	                            <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0"><a href="{{URL::to('/detail_profile')}}">PROFILE</a>
+	                            <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0"><a href="{{URL::to('/profile')}}">PROFILE</a>
                                 <li class="menu-item-simple-parent"><a href="{{URL::to('/projects_depan')}}">PROJECTS</a>
                                 </li>
 	                            <li class="menu-item-megamenu-parent  megamenu-4-columns-group menu-item-depth-0"><a href="{{URL::to('/events')}}">EVENTS</a>

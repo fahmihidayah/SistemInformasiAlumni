@@ -28,15 +28,14 @@ Route::get('/test_register', 'TestController@test_register');
 // guest url
 
 Route::get('/login', 'GuestController@get_login');
-
 Route::get('/register', 'GuestController@get_register');
 Route::post('/post_register', 'GuestController@post_register');
 Route::get('/about', 'GuestController@get_about');
 Route::get('/home_main', 'GuestController@get_home');
 Route::get('/detail_profile', 'GuestController@get_detail_profile');
-Route::get('/projects', 'GuestController@get_projects');
 Route::get('/events', 'GuestController@get_events');
-Route::get('/detail_event', 'GuestController@detail_event');
+Route::get('/detail_event', 'GuestController@get_detail_event');
+Route::get('/projects', 'GuestController@get_projects');
 Route::get('/detail_project', 'GuestController@get_detail_project');
 Route::get('/projects_depan', 'GuestController@get_projects_depan');
 Route::get('/profile', 'GuestController@get_profile');
