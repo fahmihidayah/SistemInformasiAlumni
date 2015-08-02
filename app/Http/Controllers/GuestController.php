@@ -25,9 +25,9 @@ class GuestController extends Controller {
 	public function post_register(Request $request){
 		$mahasiswa = Mahasiswa::create_mahasiswa($request);
 		$mahasiswa->save();
-		$user = User::create_user($request);
+		$user = User::create_user($request, "alumni");
 		$user->save();
-		return $request->all();
+		return redirect("login");
 	}	
 
 	public function get_home(Request $request){

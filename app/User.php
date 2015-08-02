@@ -37,7 +37,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 		$user->name = $request->get('first_name') . " " . $request->get('last_name'); 
 		$user->email = $request->get('email');
 		$user->password = bcrypt($request->get('password'));
-		$user->type = "alumni";
+		$user->type = $type;
 		return $user;
 	}
 
