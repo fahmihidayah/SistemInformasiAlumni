@@ -68,15 +68,15 @@
                                 <span class="dt-menu-toggle-icon"></span>
                             </div>
                             <ul class="menu">
-	                            <li class="menu-item-simple-parent "><a href="#">HOME</a>
+	                            <li class="menu-item-simple-parent "><a href="{{URL::to('/home_main')}}">HOME</a>
                                 </li>
 	                            <li class="menu-item-megamenu-parent megamenu-4-columns-group menu-item-depth-0"><a href="{{URL::to('/detail_profile')}}">PROFILE</a>
-                                <li class="menu-item-simple-parent"><a href="#">PROJECTS</a>
+                                <li class="menu-item-simple-parent"><a href="{{URL::to('/projects_depan')}}">PROJECTS</a>
                                 </li>
-	                            <li class="menu-item-megamenu-parent  megamenu-4-columns-group menu-item-depth-0"><a href="#">EVENTS</a>
+	                            <li class="menu-item-megamenu-parent  megamenu-4-columns-group menu-item-depth-0"><a href="{{URL::to('/events')}}">EVENTS</a>
                                    
                                 </li>
-	                            <li class="menu-item-megamenu-parent megamenu-5-columns-group menu-item-depth-0 current_page_item"><div><a href="{{URL::to('about')}}">ABOUT</a></div></a>
+	                            <li class="menu-item-megamenu-parent megamenu-5-columns-group menu-item-depth-0 current_page_item"><div><a href="{{URL::to('/about')}}">ABOUT</a></div></a>
                                    
                                 </li>
                             
