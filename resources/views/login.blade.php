@@ -13,26 +13,27 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
-	<!--[if lt IE 9]>
-	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	  
-	<link rel="shortcut icon" href="{{URL::asset('favicon.ico')}}" type="image/x-icon" />
+	
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+      
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     
     <!-- **CSS - stylesheets** -->
-	<link id="default-css" rel="stylesheet" href="{{URL::asset('css/style.css')}}" type="text/css" media="all" />
-	<link id="shortcodes-css" rel="stylesheet" href="{{URL::asset('css/shortcodes.css')}}" type="text/css" media="all"/>
-	<link id="skin-css" rel="stylesheet" href="{{URL::asset('skins/skyblue/style.css')}}" type="text/css" media="all"/>
-    <link id="layer-slider" rel="stylesheet"  href="{{URL::asset('css/layerslider.css')}}" media="all" />
-	
-	<!-- **Additional - stylesheets** -->
-	<link rel="stylesheet" href="{{URL::asset('css/responsive.css')}}" type="text/css" media="all"/>
-	<link rel="stylesheet" href="{{URL::asset('css/meanmenu.css')}}" type="text/css" media="all"/>
-	<link rel="stylesheet" href="{{URL::asset('css/prettyPhoto.css')}}" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="{{URL::asset('css/animations.css')}}" type="text/css" media="all" />
+    <link id="default-css" rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link id="shortcodes-css" rel="stylesheet" href="shortcodes.css" type="text/css" media="all"/>
+    <link id="skin-css" rel="stylesheet" href="skins/skyblue/style.css" type="text/css" media="all"/>
+    <link id="layer-slider" rel="stylesheet"  href="css/layerslider.css" media="all" />
+    
+    <!-- **Additional - stylesheets** -->
+    <link rel="stylesheet" href="responsive.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/meanmenu.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/animations.css" type="text/css" media="all" />
     
     <!-- **Font Awesome** -->
-	<link rel="stylesheet" href="{{URL::asset('css/font-awesome.min.css')}}" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     
     <!-- **Google - Fonts** -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>  
@@ -65,11 +66,11 @@
                                 <span class="dt-menu-toggle-icon"></span>
                             </div>
                             <ul class="menu">
-	                            <li class="menu-item-simple-parent current_page_item"><div><a href="#">HOME</a></div></li>
-	                            <li class="menu-item-simple-parent "><div><a href="#">PROFILE</a></div></li>
-                                <li class="menu-item-simple-parent "><div><a href="#">PROJECTS</a></div>       </li>
-	                            <li class="menu-item-simple-parent "><div><a href="#">EVENTS</a></div>                      </li>
-	                            <li class="menu-item-simple-parent " ><div><a href="#" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/home_main')}}">HOME</a></div></li>
+	                            <li class="menu-item-simple-parent "><div><a href="{{URL::to('/detail_profile')}}">PROFILE</a></div></li>
+                                <li class="menu-item-simple-parent "><div><a href="#">PROJECTS</a></div></li>
+	                            <li class="menu-item-simple-parent "><div><a href="#">EVENTS</a></div></li>
+	                            <li class="menu-item-simple-parent " ><div><a href="{{URL::to('about')}}" style="border-right: 1px solid rgb(0, 0, 0);">ABOUT</a></div> </li>
                             
 	                        </ul>
 	                    </nav>
@@ -80,7 +81,7 @@
 					<div class="top-right cari">
                     <ul class="register" style="padding-top: 70px;">
                         
-                        <li><a href="#" title="Register Now"><span class="fa fa-user"></span>  </a><a href="#" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
+                        <li><a href="{{URL::to('register')}}" title="Register Now"><span class="fa fa-user"></span>  </a><a href="{{URL::to('login')}}" title="Login"><img src="images/log_out_log_in.png" style="width: 15px; padding-right: 8px; padding-left: 5px;"/></a></li>
                         <li><p> <input placeholder="search" id="kw" name="kws" autocomplete="off" type="text" > </p></li>
                     </ul>
                 </div>

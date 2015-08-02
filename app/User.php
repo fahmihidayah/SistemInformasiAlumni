@@ -32,11 +32,12 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 */
 	protected $hidden = ['password', 'remember_token'];
 
-	public static function create_user(Request $request){
+	public static function create_user(Request $request, $type){
 		$user = new User();
 		$user->name = $request->get('first_name') . " " . $request->get('last_name'); 
 		$user->email = $request->get('email');
 		$user->password = bcrypt($request->get('password'));
+		$user->type = "alumni";
 		return $user;
 	}
 
